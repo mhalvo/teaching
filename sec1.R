@@ -52,7 +52,10 @@ hist(d$sleep_hours, breaks=c(3.5,4.5,5.5,6.5,7.5,8.5,9.5,10.5))
 hist(d$sleep_hours, breaks=c(3.5,5.5,7.5,9.5,11.5))
 
 ### Frequency polygon
-plot(freqdist$f, type="b")
+plot(freqdist$f, type="b") # note this is your frequency distribution, not the raw data
+
+### Bar chart for a nominal variable
+plot(d$sleep_location)
 
 ### And a pie chart, so we can say we did (again, pie charts are useful...if you're cutting a pizza)
 pie(freqdist$f, labels=freqdist$lims)
