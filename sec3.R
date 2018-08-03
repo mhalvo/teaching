@@ -17,3 +17,16 @@ dcats
 
 # for ease, let's call cat_weight x
 x <- dcats$cat_weight
+
+# here are the population values that we know...
+mu_x <- 8.9
+sigma_x <- 3.5
+
+# let's calculate z
+xbar <-
+n <-
+sigma_xbar <-
+  
+z <- (xbar - mu_x) / sigma_xbar
+onetailp <- 1-pnorm(z) ## right side of z
+twotailp <- onetailp*2 ## two-tailed p-value
