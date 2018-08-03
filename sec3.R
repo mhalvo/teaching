@@ -13,10 +13,7 @@
 dcats <- as.data.frame(read.csv("https://raw.githubusercontent.com/mhalvo/teaching/master/sec3data.csv",header=T))
 
 ### Select/show me my data frame
-dnba
+dcats
 
-# for ease, let's call Wingspan x and Nseasons y.
-x <- dnba$Wingspan
-y <- dnba$Nseasons
-
-
+# for ease, let's call cat_weight x
+x <- dcats$cat_weight
