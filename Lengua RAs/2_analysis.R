@@ -10,7 +10,7 @@
 ##########################
 
 ### Now let's read a data file from the internet and assign it the name d
-dcats <- as.data.frame(read.csv("https://raw.githubusercontent.com/mhalvo/teaching/master/sec3data.csv",header=T))
+dcats <- as.data.frame(read.csv("https://raw.githubusercontent.com/mhalvo/teaching/master/Lengua%20RAs/sec3data.csv",header=T))
 
 ### Select/show me my data frame
 dcats
